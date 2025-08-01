@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags Practice</title>
 </head>
+
 <body>
     <h1>This Heading 1</h1>
     <h2>This Heading 2</h2>
@@ -12,10 +14,12 @@
     <h4>This Heading 4</h4>
     <h5>This Heading 5</h5>
     <h6>This Heading 6</h6>
-    <p>This is the example of paragraph tag and Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cupiditate.</p>
+    <p>This is the example of paragraph tag and Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Neque,cupiditate.</p>
     <a target="_blank" href="https://www.google.com">This is the Example of anchor tag used for opening links</a>
     <br>
-    <img height="300" width="300" src="image.jpeg" alt="Alternate text is used for when image is not available" srcset="">
+    <img height="300" width="300" src="image.jpeg" alt="Alternate text is used for when image is not available"
+        srcset="">
     <br>
     <img src="" alt="Alternate text is used for when image is not available" srcset="">
     <br>
@@ -23,23 +27,23 @@
     <table>
         <caption>This is the Caption</caption>
         <thead>
-        <tr>
-            <th>Sr.no</th>
-            <th>Name</th>
-            <th>Mobile no</th>
-        </tr>
+            <tr>
+                <th>Sr.no</th>
+                <th>Name</th>
+                <th>Mobile no</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
-            <td rowspan="2">1</td>
-            <td>Wasim</td>
-            <td>9999990000</td>
-        </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Wasim</td>
+                <td>9999990000</td>
+            </tr>
         </tbody>
         <tfoot>
-        <tr>
-            <td colspan="2">haklaisthebest</td>
-        </tr>
+            <tr>
+                <td colspan="2">haklaisthebest</td>
+            </tr>
         </tfoot>
     </table>
     <br><br>
@@ -58,11 +62,105 @@
     <h3>Definition List</h3>
     <dl>
         <dt>Definition Term</dt>
-        <dd>Definition Definition Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus id maxime rem, quasi consectetur at provident sunt dolorum minus itaque dolor obcaecati quia fugit quod molestias, nisi dolores eveniet.</dd>
+        <dd>Definition Definition Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus id maxime
+            rem, quasi consectetur at provident sunt dolorum minus itaque dolor obcaecati quia fugit quod molestias,
+            nisi dolores eveniet.</dd>
         <dt>Definition Term</dt>
-        <dd>Definition Definition Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus id maxime rem, quasi consectetur at provident sunt dolorum minus itaque dolor obcaecati quia fugit quod molestias, nisi dolores eveniet.</dd>
+        <dd>Definition Definition Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima delectus id maxime
+            rem, quasi consectetur at provident sunt dolorum minus itaque dolor obcaecati quia fugit quod molestias,
+            nisi dolores eveniet.</dd>
     </dl>
-
-
+    <br><br>
+    <hr>
+    <h2>Forms</h2>
+    <form action="url" target="_blank" method="post" autocomplete="on">
+        <fieldset>
+            <legend>This is Legend</legend>
+            <label for="username"><b>Enter Your Username</b></label><br>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password"><strong>Enter Your Password</strong></label><br>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <br>
+        <h3><em>Choose Your Gender</em></h3>
+        <input type="radio" name="same" id="male">
+        <label for="male"><i>Male</i></label>
+        <input type="radio" name="same" id="female">
+        <label for="female"><i>Female</i></label>
+        <br>
+        <h3><ins>Choose Your Class</ins></h3>
+        <label for="10th">10<sup>th</sup></label>
+        <input type="checkbox" id="10th">
+        <label for="12th">12<sub>th</sub></label>
+        <input type="checkbox">
+        <br>
+        <input type="submit" value="press the button to submit">
+        <br><br>
+        <label for="select">Select Your City</label>
+        <select name="select" id="select" size="0" multiple>
+            <option value="Delhi" selected>Select City</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br><br>
+        <label for="browsers">Datalist</label>
+        <input list="browsers" id="browsers">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Brave">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Opera">
+        </datalist>
+        <br><br>
+        <label for="textarea">Write Your Feedback</label><br>
+        <textarea placeholder="Write text here" name="textarea" id="textarea" rows="10" cols="20"></textarea>
+        <br><br>
+        <button type="button" onclick="alert(`Hello World`)">Click to Check</button>
+        <input type="button">
+        <br><br>
+        <input type="color">
+        <br><br>
+        <input type="date">
+        <br><br>
+        <input type="datetime-local">
+        <br><br>
+        <input type="email" placeholder="For Emails">
+        <br><br>
+        <input type="image" src="image.jpeg" width="50" height="50">
+        <br><br>
+        <input type="file">
+        <br><br>
+        <input type="month">
+        <br><br>
+        <input type="number" min="1" max="10">
+        <br><br>
+        <input type="range">
+        <br><br>
+        <input type="search" placeholder="Search Here">
+        <br><br>
+        <input type="tel" placeholder="Enter Telephone Number here" size="30">
+        <br><br>
+        <input type="time">
+        <br><br>
+        <input type="url" placeholder="Url Here">
+        <br><br>
+        <input type="week">
+    </form>
+    <br><br>
+    <video src="video.mp4" controls loop poster="image.jpeg" width="200" height="200"></video>
+    <audio src="audio.mp3" controls loop preload="auto"></audio>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XZwBNDGuWGU?si=GpjBgM0AiJ4ghTaX"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <svg height="100" width="100">
+        <circle cx="50" cy="50" r="50" stroke="black" stroke-width="3" fill="yellow" />
+    </svg>
 </body>
 </html>
