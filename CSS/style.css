@@ -1,0 +1,45 @@
+/* Linked with Index.html file */
+.External{
+    background-color: aquamarine;
+    color: maroon;
+}
+/* Element Selector */
+ol li{
+    color: blue;
+}
+/* Class Selector */
+.class{
+    color: green;
+}
+/* ID selector */
+#ids{
+    color: red;
+}
+/* Child Selector */
+div > li{
+    color: yellowgreen;
+}
+/* Descendent Selector */
+ol span{
+    color: brown;
+}
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Attribute Selector */
+[href=""]{
+    color: goldenrod;
+}
+ol p{
+    color: violet;
+}
+/* Pseudo Selector */
+.Pseudo:hover{
+    background-color: black;
+    color: white;
+}
+body:hover{
+    background-color: rgb(242, 255, 171);
+}
