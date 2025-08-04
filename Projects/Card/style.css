@@ -1,0 +1,76 @@
+body{
+    background-color: beige;
+}
+.box{
+    height: 490px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5% 40%;
+    border: 1px solid grey;
+    background-color: white;
+}
+img{
+    height: 225px;
+    width: 286px;
+    border-radius: 10px;
+    margin: 6px 7px;
+    
+}
+.btns{
+    border-radius: 10px;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 20px;
+    border: 1px solid grey;
+    padding: 2px 7px;
+    color:grey;
+    background-color:white;
+    font-weight: bold;
+}
+.btns2{
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 9px;
+    border: 1px solid grey;
+    padding: 2px 7px;
+    color:grey;
+    background-color:white;
+    font-weight: bold;
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 15px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1px 15px;
+    color: grey;
+    font-size: 15px;
+}
+.readmore{
+    height: 40px;
+    width: 96px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 10px;
+    color: blue;
+    background-color: rgb(221, 247, 255);
+    border: none;
+    margin: 17px 104px;
+}
+.btns:hover{
+    background-color: rgb(221, 247, 255) ;
+    border: 1px solid blue;
+    color: blue;
+}
+.btns2:hover{
+    background-color: rgb(221, 247, 255) ;
+    border: 1px solid blue;
+    color: blue;
+}
+.readmore:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 5px 3px 1px lightblue;
+}

@@ -41,16 +41,15 @@ function showResult() {
 
     document.getElementById("inputF").value = result;
 
-    // Reset for next operation
     firstNumber = result.toString();
     secondNumber = "";
     operator = "";
 }
 
 
-    function clearInput() {
-      firstNumber = "";
-      secondNumber = "";
-      operator = "";
-      document.getElementById("inputF").value = "";
-    }
+function clearInput() {
+    firstNumber = "";
+    secondNumber = "";
+    operator = "";
+    document.getElementById("inputF").value = "";
+}

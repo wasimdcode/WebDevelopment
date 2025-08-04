@@ -34,7 +34,6 @@ body {
 }
 
 .opbtns {
-    /* padding: 18.5px; */
     height: 53px;
     width: 55px;
     margin-bottom: 10px;
@@ -45,13 +44,13 @@ body {
     margin-left: 4px;
     box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
-.opbtns:hover{
+
+.opbtns:hover {
     background-color: #BDC3FF;
     border: solid 2px white;
 }
 
 .btns {
-    /* padding: 18.5px 24px; */
     height: 53px;
     width: 55px;
     border-radius: 10px;
@@ -67,13 +66,15 @@ body {
     font-style: normal;
     color: rgb(97, 97, 97);
 }
-.btns:hover{
+
+.btns:hover {
     background-color: #7B6DF9;
     color: white;
     border: solid 2px white;
 }
-.c:hover{
-    background-color: #ff6260;    
+
+.c:hover {
+    background-color: #ff6260;
 }
 
 
@@ -90,7 +91,8 @@ body {
     font-weight: bold;
     color: rgb(97, 97, 97);
 }
-.equal:hover{
+
+.equal:hover {
     background-color: #BAE3FF;
     border: solid 2px white;
 }
