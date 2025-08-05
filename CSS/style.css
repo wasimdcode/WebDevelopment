@@ -1,45 +1,70 @@
 /* Linked with Index.html file */
-.External{
+.External {
     background-color: aquamarine;
     color: maroon;
 }
+
 /* Element Selector */
-ol li{
+ol li {
     color: blue;
 }
+
 /* Class Selector */
-.class{
+.class {
     color: green;
 }
+
 /* ID selector */
-#ids{
+#ids {
     color: red;
 }
+
 /* Child Selector */
-div > li{
+div>li {
     color: yellowgreen;
 }
+
 /* Descendent Selector */
-ol span{
+ol span {
     color: brown;
 }
+
 /* Universal Selector */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Attribute Selector */
-[href=""]{
+[href=""] {
     color: goldenrod;
 }
-ol p{
+
+ol p {
     color: violet;
 }
+
 /* Pseudo Selector */
-.Pseudo:hover{
+.Pseudo:hover {
     background-color: black;
     color: white;
 }
-body:hover{
+
+body:hover {
     background-color: rgb(242, 255, 171);
+}
+
+.liststyle {
+    /* list-style-type: "d "; */
+    list-style-position: inside;
+    border: 1px solid black;
+    list-style-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmxhYWV5Y2V2Yno0Mmlub2ptOGJwbzV3eWw0emFtcXp4c2VpZ3h4ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/TpsuCxwsNH8gatbpR5/giphy.gif);
+
+}
+.overbox{
+    height: 30vh;
+    width: 20vw;
+    border: 1px solid black;
+    overflow: scroll hidden;
+    text-overflow: clip;
 }

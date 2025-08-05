@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Internal {
+            color: green;
+        }
+
+        .bungee-spice-regular {
+            font-family: "Bungee Spice", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .lorem {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            border: 1px solid red;
+            width: 90vw;
+            word-break: break-all;
+            box-sizing: border-box;
+        }
+
+        .color {
+            /* We can Use colors in these many ways */
+            color: maroon;
+            color: rgb(red, green, blue);
+            color: rgba(red, green, blue, alpha);
+            color: hsl(hue, saturation, lightness);
+            color: #CD5C5C;
+        }
+
+        .divi {
+            border: 1px solid black;
+            width: 100vw;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <h1 style="background-color: pink;">This is the Inline CSS</h1>
+    <h2 class="Internal">This is the Internal CSS</h2>
+    <h3 class="External">This is the External CSS</h3>
+    <ol>
+        <li>Element Selector li</li>
+        <li class="class">Class Selector .</li>
+        <li id="ids">ID Selector #</li>
+        <div>
+            <li>Child Selector div > li</li>
+        </div>
+        <li><span>Descendent Selector li span</span></li>
+        <p>Universal Selector *</p>
+        <li class="Pseudo">Pseudo Selector :hover here </li>
+        <li><a href="">Attribute Selector</a></li>
+    </ol>
+    <h1 style="background-color: palevioletred; color: black;">Box Sizing</h1>
+    <div style="margin: 10px;padding: 15px;border: 5px solid rgb(0, 8, 255); height: 150px; box-sizing: border-box;">
+        This is Box One</div>
+    <div style="margin: 10px;padding: 15px;border: 5px solid rgb(0, 8, 255); height: 150px;">This is Box Two</div>
+    <p style="line-height: 3;">The Use of Fonts Styling
+    <ul>
+        <li style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Font Family</li>
+        <li style="font-weight: bolder;">Font Bolder</li>
+        <li style="font-size: 30px;">Font Size</li>
+        <li style="font-style: italic;">Font italic</li>
+        <li style="text-decoration-line: underline;">Font underline</li>
+        <br>
+        <li style="text-decoration-line:overline;">Font overline</li>
+        <li style="text-decoration-line:line-through;">Font line-through</li>
+        <li class="bungee-spice-regular">Font From GoogleFonts</li>
+        <li style="letter-spacing: 2;">letter spacing</li>
+        <li style="text-transform: capitalize;">capitalize</li>
+        <li style="text-transform: lowercase;">LOWERCASE</li>
+        <li style="text-transform: uppercase;">uppercase</li>
+        <li style="text-indent: 100px;">Text Indent</li>
+        <li style="text-align: center;">Text Aligned Center</li>
+    </ul>
+    </p>
+    <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum vel quod veritatis. Mollitia
+        incidunt vero fugiat ratione quisquam numquam, dicta alias? Quia, vel non aliquid reprehenderit dolore voluptate
+        dolores enim culpa dolor vero laborum!</p>
+    <div class="divi">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse modi ipsam libero doloribus, doloremque
+            amet et. Nostrum voluptatem omnis praesentium mollitia, est voluptas tempore? Vel esse nesciunt consequatur
+            iste, molestiae est dicta exercitationem nisi aperiam voluptas accusantium rem explicabo quas illo,
+            voluptates, obcaecati debitis pariatur possimus temporibus perferendis quae nulla id tenetur! Repellat quis
+            nisi explicabo unde nostrum earum cumque, ea nesciunt distinctio sunt laboriosam accusamus recusandae ex?
+        </p>
+    </div>
+    <li class="liststyle">List Styling</li>
+    <li class="liststyle">List Styling</li>
+    <li class="liststyle">List Styling</li>
+    <div class="overbox">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga rerum officia dignissimos magni odio expedita quo delectus enim modi optio id perspiciatis nisi asperiores consequuntur temporibus dolor soluta, ullam culpa, hic ipsam aspernatur. Corporis!
+    </div>
+</body>
+</html>

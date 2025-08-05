@@ -1,0 +1,45 @@
+:root {
+    --navcolor: black;
+    --textcolor: white;
+}
+
+.navbar {
+    height: 57px;
+    width: 480px;
+    padding: 0px 0px 10px 0px;
+    background-color: var(--navcolor);
+    color: var(--textcolor);
+    border-radius: 50px;
+    position: sticky;
+
+}
+
+.navbar>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.options {
+    margin: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 1px 0px; */
+    position: relative;
+    top: 23px;
+    left: 40px;
+}
+
+.home {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.hicon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
