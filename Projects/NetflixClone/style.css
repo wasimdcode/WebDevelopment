@@ -210,7 +210,7 @@
 
 .mainpart {
     position: relative;
-    height: 1000px;
+    height: 2170px;
     background-color: rgb(0, 0, 0);
     top: 0;
     z-index: 10;
@@ -218,7 +218,7 @@
 
 .text {
     position: relative;
-    top: 5%;
+    top: 2%;
     margin-left: 11%;
     max-width: 80%;
     display: flex;
@@ -233,7 +233,7 @@
 
 .listCard {
     position: absolute;
-    top: 11%;
+    top: 5%;
     left: 12%;
     align-content: center;
     display: grid;
@@ -348,7 +348,7 @@
 
 .textJoin {
     position: relative;
-    top: 42%;
+    top: 21%;
     margin-left: 11%;
     max-width: 80%;
     display: flex;
@@ -363,7 +363,7 @@
 
 .reasons {
     position: relative;
-    top: 44%;
+    top: 22.5%;
     margin-left: 11%;
     z-index: 10;
     display: grid;
@@ -500,4 +500,320 @@
 
 .reason4 div {
     align-self: flex-end;
+}
+
+.FAQs {
+    position: relative;
+    top: 25%;
+    margin-left: 11%;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 17px;
+    color: white;
+}
+
+.Questions {
+    position: relative;
+    top: 25.5%;
+    margin-left: 11%;
+    display: grid;
+    grid-template-rows: 84px 84px 84px 84px 84px 84px;
+    grid-template-columns: 91%;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+    row-gap: 7px;
+}
+
+.Question1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question1 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.Question2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question2 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.Question3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question3 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.Question4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question4 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.Question5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question5 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+.Question6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 98%;
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+.Question6 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 1%;
+}
+
+footer {
+    position: relative;
+    top: 28.5%;
+}
+
+.againEmail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.againEmail h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.input2 {
+    margin-top: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.input2 input {
+    height: 56px;
+    width: 565px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: 1px solid grey;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+}
+
+.input2 input::placeholder {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e4e4e4;
+}
+
+.input2 button {
+    padding-bottom: 4px;
+    height: 56px;
+    width: 213px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #e60914;
+    border: none;
+    cursor: pointer;
+}
+
+.input2 button:hover {
+    background-color: #99161d;
+}
+
+.call {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 11%;
+    color: gray;
+    font-size: 14px;
+
+}
+
+.call h3>a {
+    color: gray;
+}
+
+.links {
+    margin-top: 3%;
+    margin-left: 11%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 25px 25px 25px 25px;
+    row-gap: 5px;
+    column-gap: 70px;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+}
+
+.links a {
+    color: gray;
+    font-weight: 500;
+}
+
+.lang-dropdown2 {
+    margin-top: 5%;
+    margin-left: 11%;
+    max-width: fit-content;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-size: 16px;
+    width: auto;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: rgba(20, 20, 20, 0);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.lang-dropdown2 .icon {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.lang-dropdown2 select {
+    background: transparent;
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px 20px 5px 0px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.trianlge2 {
+    font-size: 10px;
+}
+
+.NetflixIndia {
+    margin-top: 3%;
+    color: gray;
+    margin-left: 11%;
+    font-weight: 600;
+}
+
+.captcha {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 11%;
+}
+
+.captcha a {
+    color: skyblue;
 }
