@@ -5,7 +5,7 @@
 }
 
 .head {
-    background-image: url("images/bg.jpg");
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/3e4bd046-85a3-40e1-842d-fa11cec84349/web/IN-en-20250818-TRIFECTA-perspective_4bd1b66d-bbb6-4bc6-ba8f-ecbba53a1278_large.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -25,8 +25,7 @@
 }
 
 .nav {
-    top: 1%;
-    /* border: 2px solid red; */
+    top: 3.5%;
     max-width: 80vw;
     margin: auto;
     justify-self: center;
@@ -38,7 +37,7 @@
     align-items: center;
     justify-content: space-between;
     align-self: center;
-    column-gap: 600px;
+    column-gap: 692px;
 }
 
 .nav img {

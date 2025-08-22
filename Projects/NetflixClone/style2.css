@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+html {
+    font-size: 16px;
+}
+.navbar{
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+}
+.logo svg{
+    width: 5.6rem;
+    /* position: relative;
+    right: 1rem; */
+    fill: #e60914;
+
+}
+.lang-icon{
+    width: 1.2rem;
+}
+.down-icon{
+    width: 1.2rem;
+    flex-grow: 3;
+}
+.lang-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+    /* background-size: 16px; */
+    font-weight: bold;
+    font-size: 0.5rem;
+    color: white;
+    background-color: rgba(20, 20, 20, 0);
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 0.25rem 0.2rem;
+}
+
+.lang-dropdown select {
+    background: transparent;
+    border: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0rem;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    /* padding: 0.rem 0.5rem; */
+}
+.signIn button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    background-color: #e60914;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+
+}   
+
+/* Small devices (landscape phones) */
+@media (min-width:  600px) {
+    /* 576px - 767px */
+    .lang-dropdown select {
+        font-size: 1rem;
+    }
+}
+@media (min-width:  960px) {
+    .logo svg{
+        width: 9rem;
+        position: relative;
+    }
+    .navbar{
+        padding: 1.2rem 5rem;
+    }
+}
+@media (min-width:  1280px) {
+    .navbar{
+        padding: 1.5rem 9rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+    /* 768px - 991px */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    /* 992px - 1199px */
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    /* 1200px and up */
+}
