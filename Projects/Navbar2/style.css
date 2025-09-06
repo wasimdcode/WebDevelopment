@@ -1,549 +1,537 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: black;
-    list-style-type: none;
-    font-family: "Segoe UI";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  font-family: "Segoe UI";
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .navbar {
-    height: 15vh;
-    width: 100vw;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+  height: 15vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
 
-.logo>img {
-    height: 65px;
-    width: 200px;
+.logo > img {
+  height: 65px;
+  width: 200px;
 }
 
-.options>ul {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
+.options > ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
 }
 
-.options>ul>li>a>img {
-    height: 14px;
-    width: 14px;
+.options > ul > li > a > img {
+  height: 14px;
+  width: 14px;
 }
 
 .buttons {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.buybtn>button {
-    height: 45px;
-    width: 110px;
-    border-radius: 3px;
-    background-color: white;
-    border: 2px solid black;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
+.buybtn > button {
+  height: 45px;
+  width: 110px;
+  border-radius: 3px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.langbtn>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.langbtn > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.langbtn>a>img {
-    height: 20px;
-    width: 20px;
+.langbtn > a > img {
+  height: 20px;
+  width: 20px;
 }
 
 h1 {
-    font-weight: 400;
-    color: rgb(34, 34, 34);
-    text-align: center;
-    font-size: 55px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+  font-weight: 400;
+  color: rgb(34, 34, 34);
+  text-align: center;
+  font-size: 55px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .firstline {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.firstline>img {
-    height: 17px;
-    width: 17px;
-
+.firstline > img {
+  height: 17px;
+  width: 17px;
 }
 
-.firstline>img[alt="logo image"] {
-    height: 65px;
-    width: 65px;
-    justify-self: baseline;
+.firstline > img[alt="logo image"] {
+  height: 65px;
+  width: 65px;
+  justify-self: baseline;
 }
 
-.firstline>a {
-    font-weight: bold;
-    font-size: 50px;
+.firstline > a {
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .secondline {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 6px 435px 15px 517px;
-    position: relative;
-    left: 65px;
-    row-gap: 10px;
-    column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 6px 435px 15px 517px;
+  position: relative;
+  left: 65px;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
-.secondline>p {
-    font-size: 20px;
+.secondline > p {
+  font-size: 20px;
 }
 
-.secondline>span>button[name="d"] {
-    height: 40px;
-    width: 110px;
-    background-color: #00B6D1;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    margin-right: 15px;
+.secondline > span > button[name="d"] {
+  height: 40px;
+  width: 110px;
+  background-color: #00b6d1;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 15px;
 }
 
-.secondline>span>button>a[href="d"] {
-    color: white;
-    font-weight: bold;
+.secondline > span > button > a[href="d"] {
+  color: white;
+  font-weight: bold;
 }
 
-.secondline>span>button[name="l"] {
-    height: 40px;
-    width: 115px;
-    background-color: white;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 10px;
+.secondline > span > button[name="l"] {
+  height: 40px;
+  width: 115px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.secondline>span>button>a[href="l"] {
-    color: black;
-    font-weight: bold;
+.secondline > span > button > a[href="l"] {
+  color: black;
+  font-weight: bold;
 }
 
 .grid {
-    position: relative;
-    right: -2%;
-    margin-top: 10vh;
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 150px 150px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: start;
+  position: relative;
+  right: -2%;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 150px 150px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: start;
 }
 
 .box {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .box-1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    justify-content: start;
-    align-content: center;
-    grid-template-columns: 40px auto auto auto auto;
-    grid-template-rows: auto auto auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+  grid-template-columns: 40px auto auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
-.box-1>img[alt="logo image"] {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    height: 33px;
-    width: 33px;
+.box-1 > img[alt="logo image"] {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 33px;
+  width: 33px;
 }
 
-.box-1>a {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    font-weight: bold;
-    font-size: 21px;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-left: 5px;
-
+.box-1 > a {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-weight: bold;
+  font-size: 21px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
-.box-1>img[alt="window logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 3/4;
-    margin: 5px;
+.box-1 > img[alt="window logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  margin: 5px;
 }
 
-.box-1>img[alt="mac os logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 4/5;
-    margin: 5px;
+.box-1 > img[alt="mac os logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  margin: 5px;
 }
 
-.box-1>img[alt="linux logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 5/6;
-    margin: 5px;
+.box-1 > img[alt="linux logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 5/6;
+  margin: 5px;
 }
 
-.box-1>p {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-
+.box-1 > p {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.box-1>button[name="d"] {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    height: 39px;
-    width: 111px;
-    background-color: #00B6D1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+.box-1 > button[name="d"] {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  height: 39px;
+  width: 111px;
+  background-color: #00b6d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.box-1>button[name="l"] {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    height: 39px;
-    width: 122px;
-    background-color: white;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    position: relative;
-    left: 90px;
-    cursor: pointer;
-
+.box-1 > button[name="l"] {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  height: 39px;
+  width: 122px;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  left: 90px;
+  cursor: pointer;
 }
 
 .box-2 {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    justify-content: start;
-    align-content: center;
-    grid-template-columns: 40px auto auto auto auto;
-    grid-template-rows: auto auto auto;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+  grid-template-columns: 40px auto auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
-.box-2>img[alt="logo image"] {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    height: 33px;
-    width: 33px;
+.box-2 > img[alt="logo image"] {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 33px;
+  width: 33px;
 }
 
-.box-2>a {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    font-weight: bold;
-    font-size: 21px;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-left: 5px;
-
+.box-2 > a {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-weight: bold;
+  font-size: 21px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
-.box-2>img[alt="window logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 3/4;
-    margin: 5px;
+.box-2 > img[alt="window logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  margin: 5px;
 }
 
-.box-2>img[alt="mac os logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 4/5;
-    margin: 5px;
+.box-2 > img[alt="mac os logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  margin: 5px;
 }
 
-.box-2>img[alt="linux logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 5/6;
-    margin: 5px;
+.box-2 > img[alt="linux logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 5/6;
+  margin: 5px;
 }
 
-.box-2>p {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 15px;
-
+.box-2 > p {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
-.box-2>button[name="d"] {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    height: 39px;
-    width: 111px;
-    background-color: #00B6D1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+.box-2 > button[name="d"] {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  height: 39px;
+  width: 111px;
+  background-color: #00b6d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.box-2>button[name="l"] {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    height: 39px;
-    width: 122px;
-    background-color: white;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    position: relative;
-    left: 90px;
-    cursor: pointer;
-
+.box-2 > button[name="l"] {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  height: 39px;
+  width: 122px;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  left: 90px;
+  cursor: pointer;
 }
 
 .box-3 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    justify-content: start;
-    align-content: center;
-    grid-template-columns: 40px auto auto auto auto;
-    grid-template-rows: auto auto auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+  grid-template-columns: 40px auto auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
-.box-3>img[alt="logo image"] {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    height: 33px;
-    width: 33px;
+.box-3 > img[alt="logo image"] {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 33px;
+  width: 33px;
 }
 
-.box-3>a {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    font-weight: bold;
-    font-size: 21px;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-left: 5px;
-
+.box-3 > a {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-weight: bold;
+  font-size: 21px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
-.box-3>img[alt="window logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 3/4;
-    margin: 5px;
+.box-3 > img[alt="window logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  margin: 5px;
 }
 
-.box-3>img[alt="mac os logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 4/5;
-    margin: 5px;
+.box-3 > img[alt="mac os logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  margin: 5px;
 }
 
-.box-3>img[alt="linux logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 5/6;
-    margin: 5px;
+.box-3 > img[alt="linux logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 5/6;
+  margin: 5px;
 }
 
-.box-3>p {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 15px;
-
+.box-3 > p {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
-.box-3>button[name="d"] {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    height: 39px;
-    width: 111px;
-    background-color: #00B6D1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+.box-3 > button[name="d"] {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  height: 39px;
+  width: 111px;
+  background-color: #00b6d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.box-3>button[name="l"] {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    height: 39px;
-    width: 122px;
-    background-color: white;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    position: relative;
-    left: 90px;
-    cursor: pointer;
-
+.box-3 > button[name="l"] {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  height: 39px;
+  width: 122px;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  left: 90px;
+  cursor: pointer;
 }
 
 .box-4 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    justify-content: start;
-    align-content: center;
-    grid-template-columns: 40px auto auto auto auto;
-    grid-template-rows: auto auto auto;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+  grid-template-columns: 40px auto auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
-.box-4>img[alt="logo image"] {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    height: 33px;
-    width: 33px;
+.box-4 > img[alt="logo image"] {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  height: 33px;
+  width: 33px;
 }
 
-.box-4>a {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    font-weight: bold;
-    font-size: 21px;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-left: 5px;
-
+.box-4 > a {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-weight: bold;
+  font-size: 21px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
-.box-4>img[alt="window logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 3/4;
-    margin: 5px;
+.box-4 > img[alt="window logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  margin: 5px;
 }
 
-.box-4>img[alt="mac os logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 4/5;
-    margin: 5px;
+.box-4 > img[alt="mac os logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  margin: 5px;
 }
 
-.box-4>img[alt="linux logo"] {
-    height: 15px;
-    width: 15px;
-    grid-row: 1/2;
-    grid-column: 5/6;
-    margin: 5px;
+.box-4 > img[alt="linux logo"] {
+  height: 15px;
+  width: 15px;
+  grid-row: 1/2;
+  grid-column: 5/6;
+  margin: 5px;
 }
 
-.box-4>p {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-
+.box-4 > p {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.box-4>button[name="d"] {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    height: 39px;
-    width: 111px;
-    background-color: #00B6D1;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+.box-4 > button[name="d"] {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  height: 39px;
+  width: 111px;
+  background-color: #00b6d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.box-4>button[name="l"] {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    height: 39px;
-    width: 122px;
-    background-color: white;
-    border: 2px solid black;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    position: relative;
-    left: 90px;
-    cursor: pointer;
+.box-4 > button[name="l"] {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  height: 39px;
+  width: 122px;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  left: 90px;
+  cursor: pointer;
 }

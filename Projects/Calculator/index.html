@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="calbody">
-        <input type="text" class="input" id="inputF" maxlength="5" readonly>
-        <div id="btndiv">
-            <button class="opbtns" onclick="addOperator('x')">✖️</button>
-            <button class="opbtns" onclick="addOperator('/')">➗</button>
-            <button class="opbtns" onclick="addOperator('+')">➕</button>
-            <button class="opbtns" onclick="addOperator('-')">➖</button>
-            <br>
-            <button class="btns" onclick="addDigits(7)">7</button>
-            <button class="btns" onclick="addDigits(8)">8</button>
-            <button class="btns" onclick="addDigits(9)">9</button>
-            <button class="btns" onclick="addDigits(4)">4</button>
-            <br>
-            <button class="btns" onclick="addDigits(5)">5</button>
-            <button class="btns" onclick="addDigits(6)">6</button>
-            <button class="btns" onclick="addDigits(1)">1</button>
-            <button class="btns" onclick="addDigits(2)">2</button>
-            <br>
-            <button class="btns" onclick="addDigits(3)">3</button>
-            <button class="btns" onclick="addDigits(0)">0</button>
-            <button class="btns" onclick="addDigits('.')">.</button>
-            <button class="c btns" onclick="clearInput()">C</button>
-            <br>
-            <button class="equal" onclick="showResult()">=</button>
-        </div>
+      <input type="text" class="input" id="inputF" maxlength="5" readonly />
+      <div id="btndiv">
+        <button class="opbtns" onclick="addOperator('x')">✖️</button>
+        <button class="opbtns" onclick="addOperator('/')">➗</button>
+        <button class="opbtns" onclick="addOperator('+')">➕</button>
+        <button class="opbtns" onclick="addOperator('-')">➖</button>
+        <br />
+        <button class="btns" onclick="addDigits(7)">7</button>
+        <button class="btns" onclick="addDigits(8)">8</button>
+        <button class="btns" onclick="addDigits(9)">9</button>
+        <button class="btns" onclick="addDigits(4)">4</button>
+        <br />
+        <button class="btns" onclick="addDigits(5)">5</button>
+        <button class="btns" onclick="addDigits(6)">6</button>
+        <button class="btns" onclick="addDigits(1)">1</button>
+        <button class="btns" onclick="addDigits(2)">2</button>
+        <br />
+        <button class="btns" onclick="addDigits(3)">3</button>
+        <button class="btns" onclick="addDigits(0)">0</button>
+        <button class="btns" onclick="addDigits('.')">.</button>
+        <button class="c btns" onclick="clearInput()">C</button>
+        <br />
+        <button class="equal" onclick="showResult()">=</button>
+      </div>
     </div>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
-</body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+      rel="stylesheet"
+    />
+  </body>
 </html>

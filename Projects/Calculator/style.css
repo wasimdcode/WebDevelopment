@@ -1,98 +1,96 @@
 body {
-    background-color: #799EFF;
+  background-color: #799eff;
 }
 
 .calbody {
-    height: 415px;
-    width: 284px;
-    background-color: #A3DC9A;
-    border-radius: 13px;
-    margin-left: 40%;
-    margin-top: 33px;
-    box-shadow: 2px 5px 5px rgba(14, 176, 62, 0.2);
-    border: ridge 9px white;
-
+  height: 415px;
+  width: 284px;
+  background-color: #a3dc9a;
+  border-radius: 13px;
+  margin-left: 40%;
+  margin-top: 33px;
+  box-shadow: 2px 5px 5px rgba(14, 176, 62, 0.2);
+  border: ridge 9px white;
 }
 
 .input {
-    margin: 17px 15px;
-    height: 57px;
-    width: 247px;
-    border-radius: 8px;
-    box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
-    border: none;
-    background-color: aliceblue;
-    text-align: right;
-    font-size: 40px;
+  margin: 17px 15px;
+  height: 57px;
+  width: 247px;
+  border-radius: 8px;
+  box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: aliceblue;
+  text-align: right;
+  font-size: 40px;
 }
 
 #btndiv {
-    height: 425px;
-    width: 265px;
-    box-sizing: border-box;
-    margin: -2px 16px;
+  height: 425px;
+  width: 265px;
+  box-sizing: border-box;
+  margin: -2px 16px;
 }
 
 .opbtns {
-    height: 53px;
-    width: 55px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: #FFF9BD;
-    border: none;
-    box-sizing: border-box;
-    margin-left: 4px;
-    box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
+  height: 53px;
+  width: 55px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #fff9bd;
+  border: none;
+  box-sizing: border-box;
+  margin-left: 4px;
+  box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .opbtns:hover {
-    background-color: #BDC3FF;
-    border: solid 2px white;
+  background-color: #bdc3ff;
+  border: solid 2px white;
 }
 
 .btns {
-    height: 53px;
-    width: 55px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    border: none;
-    box-sizing: border-box;
-    margin-left: 4px;
-    background-color: #ebf96d;
-    box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
-    font-size: 25px;
-    font-family: "Rye", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(97, 97, 97);
+  height: 53px;
+  width: 55px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  box-sizing: border-box;
+  margin-left: 4px;
+  background-color: #ebf96d;
+  box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(97, 97, 97);
 }
 
 .btns:hover {
-    background-color: #7B6DF9;
-    color: white;
-    border: solid 2px white;
+  background-color: #7b6df9;
+  color: white;
+  border: solid 2px white;
 }
 
 .c:hover {
-    background-color: #ff6260;
+  background-color: #ff6260;
 }
 
-
 .equal {
-    height: 54px;
-    width: 248px;
-    border-radius: 10px;
-    border: none;
-    box-sizing: border-box;
-    margin-left: 3px;
-    background-color: #FFD6BA;
-    box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
-    font-size: 45px;
-    font-weight: bold;
-    color: rgb(97, 97, 97);
+  height: 54px;
+  width: 248px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  margin-left: 3px;
+  background-color: #ffd6ba;
+  box-shadow: inset 2px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(97, 97, 97);
 }
 
 .equal:hover {
-    background-color: #BAE3FF;
-    border: solid 2px white;
+  background-color: #bae3ff;
+  border: solid 2px white;
 }

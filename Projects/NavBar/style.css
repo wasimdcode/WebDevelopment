@@ -1,46 +1,46 @@
 :root {
-    --navcolor: black;
-    --textcolor: white;
+  --navcolor: black;
+  --textcolor: white;
 }
 
-.navbar>ul {
-    height: 57px;
-    width: 480px;
-    background-color: var(--navcolor);
-    color: var(--textcolor);
-    border-radius: 50px;
-    position: sticky;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    column-gap: 40px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: 0px;
-    padding-left: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.navbar > ul {
+  height: 57px;
+  width: 480px;
+  background-color: var(--navcolor);
+  color: var(--textcolor);
+  border-radius: 50px;
+  position: sticky;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0px;
+  padding-left: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home {
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    color: black;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .hicon {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .home:hover {
-    background-color: black;
-    color: white;
-    border: 3px solid white;
+  background-color: black;
+  color: white;
+  border: 3px solid white;
 }
