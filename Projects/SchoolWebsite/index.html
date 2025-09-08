@@ -4,6 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="sticky">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <img src="https://victoriapublicschools.in/logo.jpg" alt="" />
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Vision & Mission</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero-section">
+      <div class="h1">
+        <h1>Empowering Young Minds for a Brighter Future</h1>
+      </div>
+      <div class="p">
+        <p>
+          Victoria Public School provides quality education with a focus on
+          holistic development and academic excellence.
+        </p>
+      </div>
+      <div class="button"><button>Enroll Now</button></div>
+    </div>
+    <div class="about">
+      <h1>About Our School</h1>
+      <div></div>
+    </div>
+    <div class="about-section">
+      <div class="text">
+        <h2>Nurturing Excellence</h2>
+        <p>
+          Victoria Public School has been a beacon of quality education for over
+          10 years, fostering intellectual curiosity, creativity, and character
+          development in our students. <br /><br />
+          Our dedicated faculty and state-of-the-art facilities create an
+          environment where students can thrive academically, socially, and
+          emotionally.
+          <br /><br />
+          We believe in a student-centered approach that recognizes individual
+          learning styles and encourages each child to reach their full
+          potential.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          alt="student-image"
+        />
+      </div>
+    </div>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu when clicking on links (mobile)
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
 </html>
