@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Victoria Public School</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -19,19 +19,19 @@
           </div>
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About Us</a>
+              <a href="#about" class="nav-link">About Us</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Vision & Mission</a>
+              <a href="#vision" class="nav-link">Vision & Mission</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Courses</a>
+              <a href="#course" class="nav-link">Courses</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact Us</a>
+              <a href="#contact" class="nav-link">Contact Us</a>
             </li>
           </ul>
           <div class="hamburger">
@@ -42,7 +42,7 @@
         </div>
       </nav>
     </header>
-    <div class="hero-section">
+    <div class="hero-section" id="home">
       <div class="h1">
         <h1>Empowering Young Minds for a Brighter Future</h1>
       </div>
@@ -52,10 +52,10 @@
           holistic development and academic excellence.
         </p>
       </div>
-      <div class="button"><button>Enroll Now</button></div>
+      <div class="button"><a href="#contact">Enroll Now</a></div>
     </div>
     <div class="about">
-      <h1>About Our School</h1>
+      <h1 id="about">About Our School</h1>
       <div></div>
     </div>
     <div class="about-section">
@@ -73,7 +73,7 @@
           learning styles and encourages each child to reach their full
           potential.
         </p>
-        <button>Learn More</button>
+        <a href="#vision">Learn More</a>
       </div>
       <div class="image">
         <img
@@ -82,7 +82,7 @@
         />
       </div>
     </div>
-    <div class="core-principal">
+    <div class="core-principal" id="vision">
       <h1>Our Core Principles</h1>
       <div></div>
     </div>
@@ -139,8 +139,8 @@
         </div>
       </div>
     </div>
-    <div class="academic-programs">
-      <h1>Our Academic <br />Programs</h1>
+    <div class="academic-programs" id="course">
+      <h1>Our Academic Programs</h1>
       <div></div>
     </div>
     <div class="grid-2">
@@ -154,7 +154,7 @@
             Our primary program focuses on foundational literacy, numeracy, and
             social skills through engaging, hands-on learning experiences.
           </p>
-          <button>Learn More</button>
+          <a href="#contact">Learn More</a>
         </div>
       </div>
       <div class="box">
@@ -167,7 +167,7 @@
             Specialized Science, Technology, Engineering, and Mathematics
             curriculum with advanced labs and project-based learning.
           </p>
-          <button>Learn More</button>
+          <a href="#contact">Learn More</a>
         </div>
       </div>
       <div class="box">
@@ -180,7 +180,7 @@
             Comprehensive language development program with options for English,
             Hindi, French, and Sanskrit language studies.
           </p>
-          <button>Learn More</button>
+          <a href="#contact">Learn More</a>
         </div>
       </div>
       <div class="box">
@@ -193,8 +193,101 @@
             Visual and performing arts programs including music, dance, theater,
             and fine arts to nurture creativity and self-expression.
           </p>
-          <button>Learn More</button>
+          <a href="#contact">Learn More</a>
         </div>
+      </div>
+    </div>
+    <div class="banner">
+      <h2>Join Our Vibrant Learning Community</h2>
+      <p>
+        Discover how Victoria Public School can help your child achieve academic
+        excellence while developing essential life skills and values.
+      </p>
+    </div>
+    <div class="contact-us" id="contact">
+      <h1>Contact Us</h1>
+      <div></div>
+    </div>
+    <div class="connect">
+      <div class="contacts">
+        <div class="get-in-touch"><h3>Get In Touch</h3></div>
+        <div class="info">
+          <div class="circle">
+            <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
+          </div>
+          <div class="i">
+            <h6>Address</h6>
+            <p>123 SCF 52, Mohali, Punjab 160055</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="circle">
+            <i
+              class="fa-solid fa-phone fa-flip-horizontal"
+              style="color: #ffffff"
+            ></i>
+          </div>
+          <div class="i">
+            <h6>Phone</h6>
+            <p>
+              <a href="tel:+918288090233" style="text-decoration: underline"
+                >+91 82880 90233</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="circle">
+            <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          </div>
+          <div class="i">
+            <h6>Email</h6>
+            <p>
+              <a href="mailto:support@victoriapublicschools.com"
+                >support@victoriapublicschools.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <form action="">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" />
+          <label for="email">Your Email</label>
+          <input type="email" id="email" />
+          <label for="phone-number">Phone Number</label>
+          <input type="tel" id="phone-number" />
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            style="
+              width: 100%;
+              height: 120px;
+              border-radius: 5px;
+              padding: 1rem 0rem 1rem 0.5rem;
+              font-size:1rem;
+              font-family: Arial, Helvetica, sans-serif;
+              border: 1px solid rgb(129, 129, 129);
+            "
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="upper">
+        <div class="sname"><h3>Victoria Public School</h3></div>
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#vision">Vision</a>
+          <a href="#course">Courses</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 Victoria Public School. All Rights Reserved.</p>
       </div>
     </div>
     <script>
